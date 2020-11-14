@@ -1,10 +1,10 @@
 import telebot
-import constants
-from constants import token1
+import const
+from const import bot_token
 from datetime import datetime
 from ausers import botusers
 
-bot = telebot.TeleBot(constants.token1)
+bot = telebot.TeleBot(bot_token)
 answer = 'Приветствую тебя друг!!!'
 answer = globals
 
